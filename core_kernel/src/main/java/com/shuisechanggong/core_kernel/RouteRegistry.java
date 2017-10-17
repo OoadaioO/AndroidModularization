@@ -17,9 +17,8 @@ public final class RouteRegistry {
     /** 订单 */
     public static final String PATH_ORDER_DETAIL = "/order/detail";
 
+    /** 订单服务 */
     public static final String SERVICE_ORDER = "/order/service";
-
-
 
 
     // ===========================================================
@@ -28,5 +27,6 @@ public final class RouteRegistry {
     /** 商品详情 */
     public static final String PATH_GOODS_DETAIL = "/goods/detail";
 
+    /** 商品服务 */
     public static final String SERVICE_GOODS = "/goods/service";
 }
