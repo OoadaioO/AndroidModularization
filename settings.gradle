@@ -1,0 +1,1 @@
+include ':app', ':core_kernel', ':opensource', ':b_order', ':b_order_sdk', ':b_goods', ':b_goods_sdk'

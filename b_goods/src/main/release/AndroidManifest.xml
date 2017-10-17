@@ -1,0 +1,15 @@
+<manifest package="com.shuisechanggong.goods"
+
+          xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <application android:allowBackup="true"
+                 android:supportsRtl="true"
+    >
+        <activity android:name=".GoodsDetailActivity">
+
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<manifest package="com.shuisechanggong.b_order"
+          xmlns:tools="http://schemas.android.com/tools"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <application
+        tools:replace="icon,label"
+        android:allowBackup="true"
+        android:label="@string/order_app_name"
+        android:icon="@mipmap/order_ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity android:name=".OrderDetailActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

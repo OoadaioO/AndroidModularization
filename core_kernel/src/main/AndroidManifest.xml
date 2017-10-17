@@ -1,0 +1,17 @@
+<manifest package="com.shuisechanggong.core_kernel"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <application android:allowBackup="true"
+                 android:supportsRtl="true"
+    >
+
+        <provider
+            android:authorities="com.shuisechanggong.core_kernel.router"
+            android:name=".RouterTrojanProvider"
+            android:exported="false"
+            />
+
+    </application>
+
+</manifest>
