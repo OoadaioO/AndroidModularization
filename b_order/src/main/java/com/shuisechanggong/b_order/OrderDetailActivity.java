@@ -11,7 +11,7 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.shuisechanggong.b_goods_sdk.IGoodsService;
 import com.shuisechanggong.core_kernel.RouteRegistry;
 
-@Route(path = RouteRegistry.PATH_ORDER_DETAIL,group = "test")
+@Route(path = RouteRegistry.PATH_ORDER_DETAIL)
 public class OrderDetailActivity extends AppCompatActivity {
 
     TextView textView;

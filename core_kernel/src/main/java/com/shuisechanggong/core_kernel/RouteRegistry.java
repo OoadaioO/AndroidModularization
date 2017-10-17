@@ -11,12 +11,20 @@ package com.shuisechanggong.core_kernel;
  */
 public final class RouteRegistry {
 
+    // ===========================================================
+    // 订单
+    // ===========================================================
     /** 订单 */
     public static final String PATH_ORDER_DETAIL = "/order/detail";
 
-
     public static final String SERVICE_ORDER = "/order/service";
 
+
+
+
+    // ===========================================================
+    // 商品
+    // ===========================================================
     /** 商品详情 */
     public static final String PATH_GOODS_DETAIL = "/goods/detail";
 
